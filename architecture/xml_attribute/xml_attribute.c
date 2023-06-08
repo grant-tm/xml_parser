@@ -4,6 +4,8 @@
 #include "xml_attribute.h"
 
 typedef struct xml_attribute {
+    char* name;
+    char* value;
 };
 
 /* CREATE, INITIALIZE, DESTROY */
